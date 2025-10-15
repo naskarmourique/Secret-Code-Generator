@@ -1,17 +1,17 @@
 # 🔐 Secret Code Generator
 
-This repository contains a simple yet effective **Secret Code Generator** written in Python. [cite_start]The program allows users to encode a plain text message into a secret code and decode it back to its original form using a Caesar cipher algorithm. [cite: 1]
+This repository contains a simple yet effective **Secret Code Generator** written in Python. The program allows users to encode a plain text message into a secret code and decode it back to its original form using a Caesar cipher algorithm.
 
-[cite_start]This project is a great exercise for practicing fundamental Python concepts, including functions, loops, string manipulation, and user input handling. [cite: 1]
+This project is a great exercise for practicing fundamental Python concepts, including functions, loops, string manipulation, and user input handling.
 
 ## 📊 Features
 
-* [cite_start]**Encode & Decode**: Easily transform messages into secret code and back again. [cite: 1]
-* [cite_start]**Caesar Cipher Logic**: Uses a substitution cipher where each letter is shifted by a specified number of places in the alphabet. [cite: 2]
-* [cite_start]**Case Handling**: Correctly handles both uppercase and lowercase letters. [cite: 2]
-* [cite_start]**Character Support**: Ignores non-alphabetic characters like spaces, numbers, and punctuation, leaving them unchanged. [cite: 2]
-* [cite_start]**Alphabet Wrapping**: Supports wrapping around the alphabet (e.g., shifting 'Z' by 2 results in 'B'). [cite: 2]
-* [cite_start]**Interactive Menu**: A simple command-line menu allows the user to choose between encoding, decoding, or exiting the program. [cite: 1]
+* **Encode & Decode**: Easily transform messages into secret code and back again.
+* **Caesar Cipher Logic**: Uses a substitution cipher where each letter is shifted by a specified number of places in the alphabet.
+* **Case Handling**: Correctly handles both uppercase and lowercase letters.
+* **Character Support**: Ignores non-alphabetic characters like spaces, numbers, and punctuation, leaving them unchanged.
+* **Alphabet Wrapping**: Supports wrapping around the alphabet (e.g., shifting 'Z' by 2 results in 'B').
+* **Interactive Menu**: A simple command-line menu allows the user to choose between encoding, decoding, or exiting the program.
 
 ## 🚀 How It Works
 
@@ -19,9 +19,9 @@ The program takes a message and a numerical "shift" value. For encoding, it shif
 
 #### Example:
 
-* [cite_start]**Original Message**: `Hello World!` [cite: 8]
-* [cite_start]**Shift Value**: `3` [cite: 8]
-* [cite_start]**Encoded Message**: `Khoor Zruog!` [cite: 8]
+* **Original Message**: `Hello World!`
+* **Shift Value**: `3`
+* **Encoded Message**: `Khoor Zruog!`
 
 ## 💻 How to Use
 
@@ -60,9 +60,9 @@ The program takes a message and a numerical "shift" value. For encoding, it shif
 
 The program is structured around three main functions:
 
-* [cite_start]`encode_message(message, shift)`: Takes a string and an integer shift to produce the encoded message. [cite: 3, 4]
-* [cite_start]`decode_message(message, shift)`: Reverses the encoding process by shifting letters backward. [cite: 3, 4]
-* [cite_start]`menu()`: Provides the main user interface for interacting with the program. [cite: 3, 6]
+* `encode_message(message, shift)`: Takes a string and an integer shift to produce the encoded message.
+* `decode_message(message, shift)`: Reverses the encoding process by shifting letters backward.
+* `menu()`: Provides the main user interface for interacting with the program.
 
 ## 🔧 Technologies Used
 
